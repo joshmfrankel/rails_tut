@@ -10,9 +10,9 @@ gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
 
 group :development, :test do
-  gem 'sqlite3',     '1.3.9'
+  gem 'sqlite3',     '1.3.10' # Use 1.3.10 and above to prevent errors with ruby 2.0
   gem 'byebug',      '3.4.0'
-  gem 'web-console', '2.0.0.beta3'
+  #gem 'web-console', '2.0.0.beta3' # Doesn't work for Windoze
   gem 'spring',      '1.1.3'
 end
 
