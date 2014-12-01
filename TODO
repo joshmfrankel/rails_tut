@@ -1,0 +1,32 @@
+Commands:
+ ☐ rails new [project-name] --skip-test-unit
+   New rails project without tests
+ ☐ bundle install
+   After a gemfile update
+ ☐ rails g rspec:install
+   Install the rspec setup
+ ☐ git init
+ ☐ git add .
+ ☐ git commit -m "New project"
+ ☐ git remote add origin master git-repo.git
+ ☐ git push origin master
+
+
+Process:
+ ☐ Startup Commands
+ ☐ Spec out project in the README.rdoc
+
+^^^ Advanced ^^^
+
+Generator:
+  ☐ rails generate
+  ☐ rails destroy
+    Undo
+
+Heroku:
+ ☐ heroku create
+   New project
+ ☐ heroku apps:rename [appname]
+   Attempt to rename app
+ ☐ git push heroku master
+   Deploy app
