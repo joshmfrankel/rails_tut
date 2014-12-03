@@ -1,0 +1,792 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"contact",
+				"contact_fields"
+			],
+			[
+				"control",
+				"controlgroup"
+			],
+			[
+				"string",
+				"stringToReverse"
+			],
+			[
+				"nm_pop",
+				"nm_populateDealers"
+			],
+			[
+				"ext",
+				"extension"
+			],
+			[
+				"sort",
+				"sort_gists"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntaxphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sytnphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"packremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"json",
+				"Pretty JSON: JSON 2 XML"
+			],
+			[
+				"jsons",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"packinstl",
+				"Package Control: Install Package"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"gists",
+				"Gist: Open Gist"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"jirabra",
+				"Snippet: jira-branch"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"nexterror",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"linter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"",
+				"Convert Case: Lower Case"
+			],
+			[
+				"igsts",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"Gists",
+				"Gist: Open Gist"
+			],
+			[
+				"gistst",
+				"Gist: Embed as script"
+			],
+			[
+				"gi",
+				"Gist: Open Gist"
+			],
+			[
+				"gis",
+				"Gist: Open Gist"
+			],
+			[
+				"GIsts",
+				"Gist: Open Gist"
+			],
+			[
+				"GIst",
+				"Gist: Open Gist"
+			],
+			[
+				"gisst",
+				"Gist: Open Gist"
+			],
+			[
+				"gistoe",
+				"Gist: Open Gist"
+			],
+			[
+				"g",
+				"Gist: Open Gist"
+			],
+			[
+				"gistop",
+				"Gist: Open Gist"
+			],
+			[
+				"gistin",
+				"Gist: Insert Gist"
+			],
+			[
+				"gisto",
+				"Gist: Open Gist"
+			],
+			[
+				"gistso",
+				"Gist: Open Gist"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"commit",
+				"Snippet: jira_commit"
+			],
+			[
+				"branch",
+				"Snippet: jira-branch"
+			],
+			[
+				"jira",
+				"Snippet: jira"
+			],
+			[
+				"Jira",
+				"Snippet: jira"
+			],
+			[
+				"modifi",
+				"Modific: Show diff"
+			],
+			[
+				"packremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Trailing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"Packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"Packinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"new",
+				"Tasks: New document"
+			],
+			[
+				"Packageinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: jira_commit"
+			],
+			[
+				"New",
+				"Tasks: New document"
+			],
+			[
+				"Task",
+				"Tasks: New document"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Gists ",
+				"Gist: Open Gist"
+			],
+			[
+				"Gist",
+				"Gist: Open Gist"
+			],
+			[
+				"packinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"packinag",
+				"Package Control: Install Package"
+			],
+			[
+				"Package install",
+				"Package Control: Install Package"
+			],
+			[
+				"Packin",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 376.0,
+		"history":
+		[
+			"phplint",
+			"selectAll",
+			"reload",
+			"awef",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/josh.frankel/Web/rails_tut"
+	],
+	"file_history":
+	[
+		"/C/ignitionone/clients/PIMSLEUR/branches/12734-us-pause-popin/sites/com/www/index.php",
+		"/C/ignitionone/HIL5/branches/live_HIS_dev/func/html_output_error.htm",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/ignitionone/clients/IRONMOUNTAIN/branches/12742-uk-remove-image/sites/eu/config/models.php",
+		"/C/ignitionone/clients/IRONMOUNTAIN/branches/12742-uk-remove-image/sites/eu/config/settings.php",
+		"/C/ignitionone/clients/IRONMOUNTAIN/branches/12742-uk-remove-image/sites/eu/config/site_definitions.php",
+		"/C/ignitionone/clients/IRONMOUNTAIN/branches/12742-uk-remove-image/sites/eu/www/index.php",
+		"/C/ignitionone/clients/IRONMOUNTAIN/branches/12742-uk-remove-image/sites/eu/www/preview.php",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/index.php",
+		"/C/ignitionone/clients/IRONMOUNTAIN/branches/12742-uk-remove-image/sites/eu/www/hil/popin/js/popin_flow.js",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/config/settings.php",
+		"/C/ignitionone/clients/HONDA/branches/12495-ru-export-smtp/Export/Sample.Ru.php",
+		"/C/ignitionone/clients/HONDA/branches/12495-ru-export-smtp/Export/Ru.php",
+		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/Export/Be.php",
+		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/nl/www/hil/popin2/save.php",
+		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/be/www/lang/nl.php",
+		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/nl/www/hil/popin2/js/popin_validate.js",
+		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/nl/www/hil/popin2/js/popin_flow.js",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/preview.php",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/hil/popin/content/screen1.php",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/hil/popin/js/popin_flow.js",
+		"/C/ignitionone/clients/CITROEN/branches/12452-create-html/sites/fr/www/index.php",
+		"/C/ignitionone/clients/CITROEN/branches/12452-create-html/sites/fr/www/hil/popin/js/popin_flow.js",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/config/config.TestEnvironment.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/www/preview.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/be/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/5.3-TEST/sites/eu/config/be/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/5.3-TEST/sites/eu/config/be/language_detection.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/fr/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/fi/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/se/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/hu/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/cz/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/dk/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/sk/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/pl/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/de/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/uk/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/it/model_definitions.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/ru/www/index.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link-2/sites/eu/config/at/model_definitions.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/ru/config/settings.php",
+		"/C/ignitionone/clients/NNC/branches/12552-be-city-dealer-selector/sites/be/www/index.php",
+		"/C/ignitionone/clients/JAGUAR/trunk/sites/nl/www/hil/popin2/save.php",
+		"/C/ignitionone/clients/NNC/branches/12552-be-city-dealer-selector/sites/be/www/hil/1/content/screen1.php",
+		"/C/ignitionone/clients/NNC/branches/12552-be-city-dealer-selector/sites/be/www/hil/1/js/popin_flow.js",
+		"/C/ignitionone/clients/JAGUAR/trunk/Export/Be.php",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/hil/popin/save.php",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/config/models_definitions.php",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/hil/popin/content/images/models/B/20141114-SubaruRU-BRZ.jpg",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/hil/popin/content/images/models/B/20141114-SubaruRU-Impreza.jpg",
+		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/hil/popin/content/images/logo.jpg",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link/sites/eu/config/uk/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link/sites/eu/config/fr/model_definitions.php",
+		"/C/ignitionone/clients/NISSAN/branches/12447-eu-improve-preview-link/sites/eu/www/preview.php",
+		"/C/ignitionone/clients/NNC/branches/12552-be-city-dealer-selector/sites/be/www/hil/1/css/common.css",
+		"/C/ignitionone/HIL5/branches/5.0/HIL5/HIL5_CORE/mod_interaction/class.interactions.php",
+		"/C/ignitionone/HIL5/branches/andi/HIL5_CORE_NAN_profile_front/mod_interaction/comp_popin/class.popin.php",
+		"/C/ignitionone/clients/AQUAHOTELS/branches/10475-us-june-popin/sites/com/www/hil/1/js/popin_flow.js",
+		"/C/ignitionone/clients/AQUAHOTELS/branches/10475-us-june-popin/sites/com/www/index.php",
+		"/C/ignitionone/modules/core/branches/5.6/mod_interaction/comp_popin/js/class.popin_responsive.js",
+		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/hil/popin_sale/js/popin_flow.js",
+		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/index.php",
+		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/config/settings.php",
+		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/hil/popin_sale/content/screen1.php",
+		"/C/Windows/System32/drivers/etc/services",
+		"/C/ignitionone/clients/PEUGEOTEU/trunk/sites/nl/config/category_mapping.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sql/mssql/tables/EVO5_STATS/tags.sql",
+		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sites/ru/config/category_mapping.php",
+		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/hil/popin_sale/css/common.css",
+		"/C/ignitionone/HIL5/branches/5.4/HIL5/HIL5_CLIENTS/AUDI/se/js/func.maskLayer.js",
+		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/hil/popin_sale/js/popin_validate.js",
+		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sites/ru/config/site_mapping.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sites/ru/config/available_models.php",
+		"/C/ignitionone/Developer/Ticket Resources/12604/TODO",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/ru/tools/getDealers.php",
+		"/C/ignitionone/modules/core/branches/5.5-3/class/class.mobile.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/100000.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/100017.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/abstract.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/config/settings.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/100024.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/config/site_mapping.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/pl/www/index.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/pl/config/settings.php",
+		"/C/ignitionone/clients/PEUGEOTEU/branches/12298-nl-fields-508/sites/nl/www/index.php",
+		"/C/ignitionone/clients/PEUGEOTEU/branches/12298-nl-fields-508/sites/nl/www/hil/popin_fix/save.php",
+		"/C/ignitionone/clients/PEUGEOTEU/trunk/sites/nl/www/hil/popin_fix/save.php",
+		"/C/ignitionone/clients/PEUGEOTEU/branches/12298-nl-fields-508/sites/nl/config/settings.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/trunk/sites/com/tools/bacon.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/be/www/index.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/be/config/settings.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/100000.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/100024.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/100017.php",
+		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/be/www/preview.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/config/site_mapping.php",
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/abstract.php",
+		"/C/ignitionone/clients/NNC/branches/12552-be-city-dealer-selector/sites/be/config/settings.php",
+		"/C/ignitionone/clients/PEUGEOTEU/branches/12594-uk-remove-207-308-models/sites/eu/config/peugeot.pt/cat_mapping.php",
+		"/C/ignitionone/clients/PEUGEOTEU/branches/12594-uk-remove-207-308-models/sites/eu/config/peugeot.co.uk/cat_mapping.php",
+		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Export.php",
+		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Log/Message.php",
+		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Log/Proxy.php",
+		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Log/Writer/Interface.php",
+		"/C/ignitionone/Developer/Sublime Projects/dev.sublime-project",
+		"/C/ignitionone/clients/SUBARU/trunk/Export/Ru.php",
+		"/C/ignitionone/clients/SUBARU/trunk/Export/sample_ru.php",
+		"/C/ignitionone/clients/LANDROVER/trunk/sites/com/tools/survey_export.php",
+		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/content/screen1.php",
+		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/content/screen2.php",
+		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/css/screen2.css",
+		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/css/common.css",
+		"/C/ignitionone/HIL5/branches/UPS-DCT/com/piggybacks/pb.hollandam.php",
+		"/C/ignitionone/HIL5/branches/EVO_II/GUI/GUI_CORE.OLD_SERVER_VERSION/content/hitsintomedia/campaigns/comparison_data.php",
+		"/C/ignitionone/clients/CASEIH/trunk/sites/com/www/hil/popin/content/lang/da.php",
+		"/C/ignitionone/HIL5/branches/EVO_II/GUI/GUI_CORE.OLD_SERVER_VERSION/content/no_timeline_date_component.php",
+		"/C/ignitionone/HIL5/trunk/EVO5_EXPORT/config_nl-ams/BMW/CARMEN/InteractionDataLoad.xsd",
+		"/C/ignitionone/clients/GMDS_CHEVROLET/trunk/sites/th/www/hiv/pdf/tcpdf/config/lang/dan.php",
+		"/C/ignitionone/clients/HONDA/trunk/sites/ru/config/config.TestEnvironment.php",
+		"/C/ignitionone/HIL5/trunk/EVO5_NIPPY/data.clients.php",
+		"/C/ignitionone/HIL5/branches/drolin/EVO5_STATISTICS/stats/SessionDuration.sql",
+		"/C/ignitionone/HIL5/branches/UPS-DCT/com/oo-daa-nm.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\ignitionone\\clients\\IRONMOUNTAIN\\branches\\12742-uk-remove-image",
+			"C:\\ignitionone\\clients\\IRONMOUNTAIN\\branches\\12742-uk-remove-image\\sites\\com",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-nl-address-fields-2",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-nl-address-fields-2\\sites\\nl, *.php",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-nl-address-fields-2\\sites, *.php",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-nl-address-fields-2\\sites",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-nl-address-fields-2",
+			"C:\\ignitionone\\clients\\CITROEN\\branches\\12452-create-html\\sites",
+			"C:\\ignitionone\\clients\\SUBARU\\branches\\12581-ru-ab-tests",
+			"C:\\ignitionone\\clients\\SUBARU\\branches\\12581-ru-ab-tests\\",
+			"C:\\ignitionone\\clients\\SUBARU\\branches\\12581-ru-ab-tests\\sites",
+			"C:\\ignitionone\\clients\\SUBARU\\branches\\12581-ru-ab-tests",
+			"C:\\ignitionone\\clients\\HONDA\\branches\\12495-ru-export-smtp",
+			"C:\\ignitionone\\clients\\SUBARU\\branches\\12581-ru-ab-tests\\sites\\ru\\www",
+			"C:\\ignitionone\\clients\\SUBARU\\branches\\12581-ru-ab-tests",
+			"C:\\ignitionone\\clients\\NNC\\branches\\12552-be-city-dealer-selector",
+			"C:\\ignitionone\\clients\\AQUAHOTELS",
+			"C:\\ignitionone\\HIL5,C:\\ignitionone\\modules,C:\\ignitionone\\SVNlibrary, *.js",
+			"C:\\ignitionone\\clients\\AQUAHOTELS\\branches\\10475-us-june-popin",
+			"C:\\ignitionone\\HIL5, *.js",
+			"C:\\ignitionone\\HIL5",
+			"C:\\ignitionone\\",
+			"C:\\ignitionone\\HIL5",
+			"C:\\ignitionone\\clients\\NNC\\branches\\12552-be-city-dealer-selector",
+			"C:\\ignitionone\\clients\\ROSSI\\branches\\12604-br-new-popin",
+			"C:\\ignitionone\\clients\\ROSSI\\branches\\12604-br-new-popin\\sites\\br\\www",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\trunk, *.php",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\trunk",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12298-nl-fields-508\\sites\\nl",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12298-nl-fields-508\\sites\\nl, *.php",
+			"C:\\ignitionone\\clients\\TOYOTA\\branches\\12616-ru-mapping-update",
+			"C:\\ignitionone\\HIL5,*.php",
+			"C:\\ignitionone\\modules,*.php",
+			"C:\\ignitionone\\modules",
+			"C:\\ignitionone\\clients\\NNC\\branches\\12552-be-city-dealer-selector\\sites",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12594-uk-remove-207-308-models\\sites\\eu",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12594-uk-remove-207-308-models\\sites",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12594-uk-remove-207-308-models\\sites\\eu",
+			"C:\\ignitionone\\clients\\NNC\\branches\\12552-be-city-dealer-selector\\sites\\be",
+			"C:\\ignitionone\\SVNlibrary\\php\\branches\\0.0",
+			"C:\\ignitionone\\clients\\RENAULT\\branches\\12494-fr-postal-code\\sites\\fr\\www",
+			"C:\\ignitionone\\clients\\SUBARU\\trunk",
+			"C:\\ignitionone\\HIL5\\trunk\\EVO5_EXPORT",
+			"C:\\ignitionone\\HIL5\\trunk",
+			"C:\\ignitionone\\HIL5",
+			"C:\\ignitionone\\clients\\HONDA\\branches\\12495-ru-export-smtp",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12298-nl-fields-508\\sites\\nl",
+			"*.js",
+			"",
+			"C:\\ignitionone\\clients\\RENAULT\\branches\\12494-fr-postal-code\\sites\\fr",
+			"C:\\ignitionone\\clients\\NISSAN\\branches\\12476-uk-new-models\\sites",
+			"C:\\ignitionone\\clients\\NISSAN\\branches\\12476-uk-new-models\\sites\\eu\\www\\hil",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12298-nl-fields-508",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites",
+			"C:\\ignitionone\\clients\\TRAVELPLANET\\branches\\12254-pl-ga-code\\sites",
+			"C:\\ignitionone\\clients\\TRAVELPLANET\\branches\\12254-pl-ga-code\\sites\\pl",
+			"C:\\ignitionone\\clients\\TRAVELPLANET\\branches\\12254-pl-ga-code\\sites\\pl,",
+			"C:\\ignitionone\\clients\\TRAVELPLANET\\branches\\12254-pl-ga-code\\sites\\pl,*.php",
+			"C:\\ignitionone\\clients\\TRAVELPLANET\\branches\\12254-pl-ga-code\\sites\\pl,*.js",
+			"C:\\ignitionone\\clients\\NISSAN\\branches\\5.3-QA",
+			"C:\\ignitionone\\clients\\GMDS_CHEVROLET",
+			"C:\\ignitionone\\clients\\GMDS_CHEVROLET\\trunk\\sites,*model_mapping.php",
+			"C:\\ignitionone\\clients\\GMDS_CHEVROLET\\trunk\\sites",
+			"C:\\ignitionone\\clients\\NISSAN\\branches\\12447-eu-improve-preview-link\\sites\\eu",
+			"C:\\ignitionone\\modules",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12298-nl-fields-508\\sites\\nl",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\branches\\12298-nl-fields-508, *.php, *.js",
+			"C:\\ignitionone\\clients\\SUBARU\\branches,*.php,*.js",
+			"C:\\ignitionone\\clients\\SUBARU\\,*.php,*.js",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites",
+			"C:\\ignitionone\\clients\\LANDROVER\\branches\\11992-fr-update-mapping\\sites\\fr",
+			"C:\\ignitionone\\clients\\LANDROVER\\branches\\11992-fr-update-mapping\\sites",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites\\",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites\\*.js",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites\\**.js",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites\\.js",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites\\*.js",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo\\sites",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-address-fields-td-popin",
+			"C:\\ignitionone\\modules",
+			"",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\trunk\\sites\\nl",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\trunk",
+			"C:\\ignitionone\\clients\\JAGUAR\\branches\\12181-address-fields-td-popin",
+			"C:\\ignitionone\\clients\\RENAULT\\trunk",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\trunk",
+			"C:\\ignitionone\\clients\\PEUGEOTEU",
+			"C:\\ignitionone\\clients\\PEUGEOTEU\\trunk",
+			"C:\\ignitionone\\clients\\NNC\\branches\\11681-be-update-popin-text",
+			"C:\\Users\\josh.frankel\\AppData\\Roaming\\Sublime Text 3\\Packages\\Gist",
+			"C:\\ignitionone\\clients\\NNC\\branches\\11681-be-update-popin-text",
+			"C:\\ignitionone\\clients\\NNC\\branches\\11681-be-update-popin-text\\sites\\be",
+			"C:\\Users\\josh.frankel\\AppData\\Roaming\\Sublime Text 3\\Packages\\Gist",
+			"C:\\ignitionone\\clients\\LANDROVER\\branches\\11992-fr-update-mapping",
+			"C:\\ignitionone\\clients\\HONDA\\branches\\7353-ru-dealer-list-update\\sites",
+			"C:\\ignitionone\\clients\\GMDS\\branches\\12326-update-logo",
+			"C:\\ignitionone\\clients\\RENAULT\\trunk\\sites\\nl",
+			"C:\\ignitionone\\modules\\core\\branches\\5.5-3",
+			"RENAULT/",
+			"RENAULT",
+			"",
+			"RENAULT/trunk",
+			"branches/12181",
+			"branches/12181*.php",
+			"branches/12181",
+			"branches/12260",
+			"branches/11992",
+			"branches/12290-es-legal-update/",
+			"/branches/12290-es-legal-update/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"POPIN_ENABLED",
+			"rules",
+			"models",
+			"popinName",
+			"clone",
+			"all_rules_passed",
+			"rules",
+			"models",
+			"nmtest",
+			"models",
+			"site_definitions",
+			"popin-clone",
+			"secure",
+			"send",
+			"to",
+			"sample",
+			"; ",
+			"excel",
+			"email",
+			"excel",
+			"bedankt",
+			"jaguar",
+			"controlGroup",
+			"Tagging::getURLParameter()",
+			"ab",
+			"B",
+			"abTest",
+			"controlGroup",
+			"ab",
+			"initScreen1",
+			"changeModel",
+			"nmPopin",
+			"getDealers",
+			"nm_screen1_onload",
+			"controlGroup",
+			"popin",
+			"control group",
+			"CONTROLGROUPS",
+			"juke",
+			"30037",
+			"30004",
+			"nissan",
+			"toyota",
+			"Controlgroups",
+			"honda",
+			"onsite",
+			"ignition",
+			"popinAB",
+			"left",
+			"else",
+			"nm_model_pitcure",
+			"screen1",
+			"nm_update_picture",
+			"nm_model_pitcure",
+			"models",
+			"AB",
+			"A/B",
+			"AB",
+			"absolute",
+			"fixed",
+			"nm_wrapper",
+			"absolute",
+			"responsive",
+			"res",
+			"nm_responsive",
+			"responsive",
+			"PopinResponsive",
+			"$popin",
+			"Responsive",
+			"mail",
+			"defaultHeight",
+			"width",
+			"preg",
+			"proto",
+			"business rules",
+			"home",
+			"screen",
+			"home",
+			"300000048",
+			"300000019",
+			"300000012",
+			"300000011",
+			"300000031",
+			"300000009",
+			"300000008",
+			"300000065",
+			"300000064",
+			"300000063",
+			"300000025",
+			"300000007",
+			"300000005",
+			"arrPopinWindow",
+			"nmGetPageSizeWithScroll",
+			"nmMask",
+			"1030px",
+			"nmMask",
+			"nm_mask",
+			"nmMask",
+			"regulamento",
+			"screen",
+			"nm_popin_screen1",
+			"screen",
+			"nm_popin",
+			"popin_screen",
+			"return",
+			"land",
+			"_3",
+			"_9",
+			"background",
+			"nm_city",
+			"privacy",
+			"pushleft",
+			"style=\"width: 178px;\"",
+			"22",
+			"nm_setCities",
+			"city",
+			"cidade",
+			"browser",
+			"$rules",
+			"ctr",
+			"CTR",
+			"ctr",
+			"popin_enabled",
+			"isMobile",
+			"used",
+			"tested",
+			"toyota",
+			"LC 200"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".nm_dealer_select",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "rails_tut.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"hosts",
+				"etc\\hosts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
