@@ -1,5 +1,5 @@
 
-guard :minitest, all_on_start: false do
+guard :minitest, all_after_pass: true do
   watch(%r{^test/(.*)/?(.*)_test\.rb$})
   watch('test/test_helper.rb') { 'test' }
   watch('config/routes.rb')    { integration_tests }
