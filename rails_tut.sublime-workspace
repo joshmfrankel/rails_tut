@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"dup",
+				"duplicate_user"
+			],
+			[
+				"du",
+				"duplicate_user"
+			],
+			[
+				"invalid",
+				"invalid_address"
+			],
+			[
+				"inv",
+				"invalid_addresses"
+			],
+			[
+				"assert",
+				"assert_template"
+			],
+			[
 				"contact",
 				"contact_fields"
 			],
@@ -31,6 +55,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/controllers/static_pages_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 588,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/controllers/users_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 541,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/models/user_test.rb",
+			"settings":
+			{
+				"buffer_size": 1727,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -39,12 +103,44 @@
 		"selected_items":
 		[
 			[
-				"lint",
-				"SublimeLinter: Lint This View"
+				"packremo",
+				"Package Control: Remove Package"
 			],
 			[
 				"packinst",
 				"Package Control: Install Package"
+			],
+			[
+				"packinstl",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linten",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"Lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"packenab",
+				"Package Control: Enable Package"
+			],
+			[
+				"packdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"paclist",
+				"Package Control: List Packages"
 			],
 			[
 				"syntax",
@@ -67,24 +163,12 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"packremo",
-				"Package Control: Remove Package"
-			],
-			[
 				"json",
 				"Pretty JSON: JSON 2 XML"
 			],
 			[
 				"jsons",
 				"Pretty JSON: Format (Pretty Print) JSON"
-			],
-			[
-				"packinstl",
-				"Package Control: Install Package"
-			],
-			[
-				"packlist",
-				"Package Control: List Packages"
 			],
 			[
 				"gists",
@@ -296,10 +380,64 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/josh.frankel/Web/rails_tut"
+		"/C/Users/josh.frankel/Web/rails_tut",
+		"/C/Users/josh.frankel/Web/rails_tut/app",
+		"/C/Users/josh.frankel/Web/rails_tut/app/controllers",
+		"/C/Users/josh.frankel/Web/rails_tut/app/helpers",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/layouts",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/users",
+		"/C/Users/josh.frankel/Web/rails_tut/test",
+		"/C/Users/josh.frankel/Web/rails_tut/test/controllers",
+		"/C/Users/josh.frankel/Web/rails_tut/test/models"
 	],
 	"file_history":
 	[
+		"/C/Users/josh.frankel/Web/rails_tut/app/helpers/application_helper.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/layouts/application.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/test/models/user_test.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/controllers/users_controller.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/test/controllers/users_controller_test.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/test/controllers/static_pages_controller_test.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/config/routes.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/assets/stylesheets/custom.css.scss",
+		"/C/Users/josh.frankel/Web/rails_tut/test/integration/site_layout_test.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/test/helpers/application_helper_test.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/models/user.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/Gemfile",
+		"/C/Users/josh.frankel/Web/rails_tut/db/migrate/20141204172803_add_password_digest_to_users.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/test/fixtures/users.yml",
+		"/C/Users/josh.frankel/Web/rails_tut/db/migrate/20141204165624_add_index_to_users_email.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/db/migrate/20141204163256_ad_index_to_users_email.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/db/test.sqlite3",
+		"/C/Users/josh.frankel/Web/rails_tut/Guardfile",
+		"/C/Users/josh.frankel/Web/rails_tut/tmp/cache/assets/development/sprockets/d6c7ce3ac277094b04690a43947ede22",
+		"/C/Users/josh.frankel/Web/rails_tut/db/migrate/20141203211557_create_users.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/users/new.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/README.md",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/static_pages/home.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/static_pages/about.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/test/test_helper.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/Rakefile",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/layouts/_header.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/layouts/_footer.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/layout_file",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/static_pages/help.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/assets/stylesheets/application.css",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/static_pages/contact.html.erb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/controllers/static_pages_controller.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/app/views/layouts/_shiv.html.erb",
+		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/josh.frankel/Web/rails_tut/config/environments/production.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/.rubocop.yml",
+		"/C/Users/josh.frankel/Web/rails_tut/app/models/some_model.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/bin/setup",
+		"/C/Users/josh.frankel/Web/rails_tut/app/helpers/static_pages_helper.rb",
+		"/C/Users/josh.frankel/Web/rails_tut/config/initializers/wrap_parameters.rb",
+		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/josh.frankel/Web/rails_tut/rails_tut.sublime-project",
+		"/C/Users/josh.frankel/Web/rails_tut/config.ru",
+		"/C/Users/josh.frankel/Web/rails_tut/config/application.rb",
 		"/C/ignitionone/clients/PIMSLEUR/branches/12734-us-pause-popin/sites/com/www/index.php",
 		"/C/ignitionone/HIL5/branches/live_HIS_dev/func/html_output_error.htm",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -317,7 +455,6 @@
 		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/nl/www/hil/popin2/save.php",
 		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/be/www/lang/nl.php",
 		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/nl/www/hil/popin2/js/popin_validate.js",
 		"/C/ignitionone/clients/JAGUAR/branches/12181-nl-address-fields-2/sites/nl/www/hil/popin2/js/popin_flow.js",
 		"/C/ignitionone/clients/SUBARU/branches/12581-ru-ab-tests/sites/ru/www/preview.php",
@@ -373,7 +510,6 @@
 		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sites/ru/config/category_mapping.php",
 		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/hil/popin_sale/css/common.css",
 		"/C/ignitionone/HIL5/branches/5.4/HIL5/HIL5_CLIENTS/AUDI/se/js/func.maskLayer.js",
-		"/C/Users/josh.frankel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/ignitionone/clients/ROSSI/branches/12604-br-new-popin/sites/br/www/hil/popin_sale/js/popin_validate.js",
 		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sites/ru/config/site_mapping.php",
 		"/C/ignitionone/clients/TOYOTA/branches/12616-ru-mapping-update/sites/ru/config/available_models.php",
@@ -384,50 +520,7 @@
 		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/100017.php",
 		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/abstract.php",
 		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/config/settings.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/100024.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/config/site_mapping.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon.php",
-		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/pl/www/index.php",
-		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/pl/config/settings.php",
-		"/C/ignitionone/clients/PEUGEOTEU/branches/12298-nl-fields-508/sites/nl/www/index.php",
-		"/C/ignitionone/clients/PEUGEOTEU/branches/12298-nl-fields-508/sites/nl/www/hil/popin_fix/save.php",
-		"/C/ignitionone/clients/PEUGEOTEU/trunk/sites/nl/www/hil/popin_fix/save.php",
-		"/C/ignitionone/clients/PEUGEOTEU/branches/12298-nl-fields-508/sites/nl/config/settings.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/trunk/sites/com/tools/bacon.php",
-		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/be/www/index.php",
-		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/be/config/settings.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/100000.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/100024.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/100017.php",
-		"/C/ignitionone/clients/TOYOTA/branches/12607-ru-popin-mobile-remove/sites/be/www/preview.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/config/site_mapping.php",
-		"/C/ignitionone/clients/FOOTBALLFAN/branches/us-12575-retargeting-tag/sites/com/tools/bacon/abstract.php",
-		"/C/ignitionone/clients/NNC/branches/12552-be-city-dealer-selector/sites/be/config/settings.php",
-		"/C/ignitionone/clients/PEUGEOTEU/branches/12594-uk-remove-207-308-models/sites/eu/config/peugeot.pt/cat_mapping.php",
-		"/C/ignitionone/clients/PEUGEOTEU/branches/12594-uk-remove-207-308-models/sites/eu/config/peugeot.co.uk/cat_mapping.php",
-		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Export.php",
-		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Log/Message.php",
-		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Log/Proxy.php",
-		"/C/ignitionone/SVNlibrary/php/branches/0.0/Tool/Log/Writer/Interface.php",
-		"/C/ignitionone/Developer/Sublime Projects/dev.sublime-project",
-		"/C/ignitionone/clients/SUBARU/trunk/Export/Ru.php",
-		"/C/ignitionone/clients/SUBARU/trunk/Export/sample_ru.php",
-		"/C/ignitionone/clients/LANDROVER/trunk/sites/com/tools/survey_export.php",
-		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/content/screen1.php",
-		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/content/screen2.php",
-		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/css/screen2.css",
-		"/C/ignitionone/clients/RENAULT/branches/12494-fr-postal-code/sites/fr/www/hil/popin/css/common.css",
-		"/C/ignitionone/HIL5/branches/UPS-DCT/com/piggybacks/pb.hollandam.php",
-		"/C/ignitionone/HIL5/branches/EVO_II/GUI/GUI_CORE.OLD_SERVER_VERSION/content/hitsintomedia/campaigns/comparison_data.php",
-		"/C/ignitionone/clients/CASEIH/trunk/sites/com/www/hil/popin/content/lang/da.php",
-		"/C/ignitionone/HIL5/branches/EVO_II/GUI/GUI_CORE.OLD_SERVER_VERSION/content/no_timeline_date_component.php",
-		"/C/ignitionone/HIL5/trunk/EVO5_EXPORT/config_nl-ams/BMW/CARMEN/InteractionDataLoad.xsd",
-		"/C/ignitionone/clients/GMDS_CHEVROLET/trunk/sites/th/www/hiv/pdf/tcpdf/config/lang/dan.php",
-		"/C/ignitionone/clients/HONDA/trunk/sites/ru/config/config.TestEnvironment.php",
-		"/C/ignitionone/HIL5/trunk/EVO5_NIPPY/data.clients.php",
-		"/C/ignitionone/HIL5/branches/drolin/EVO5_STATISTICS/stats/SessionDuration.sql",
-		"/C/ignitionone/HIL5/branches/UPS-DCT/com/oo-daa-nm.php"
+		"/C/ignitionone/clients/FOOTBALLFAN/branches/12575-us-piggyback/sites/com/tools/bacon/100024.php"
 	],
 	"find":
 	{
@@ -555,6 +648,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"longer than",
+			"\"",
+			"Ruby on Rails Tutoial",
+			", count: 2",
+			"root_path",
+			"'#'",
+			"#777",
 			"POPIN_ENABLED",
 			"rules",
 			"models",
@@ -675,14 +775,7 @@
 			"browser",
 			"$rules",
 			"ctr",
-			"CTR",
-			"ctr",
-			"popin_enabled",
-			"isMobile",
-			"used",
-			"tested",
-			"toyota",
-			"LC 200"
+			"CTR"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -702,8 +795,474 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/users/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"open_with_edit": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/controllers/static_pages_controller_test.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "test/controllers/users_controller_test.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test/models/user_test.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -724,11 +1283,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -753,6 +1319,58 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"routes",
+				"config\\routes.rb"
+			],
+			[
+				"applihtml",
+				"app\\views\\layouts\\application.html.erb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"home",
+				"app\\views\\static_pages\\home.html.erb"
+			],
+			[
+				"routers",
+				"config\\routes.rb"
+			],
+			[
+				"footer",
+				"app\\views\\layouts\\_footer.html.erb"
+			],
+			[
+				"header",
+				"app\\views\\layouts\\_header.html.erb"
+			],
+			[
+				"applicath",
+				"app\\views\\layouts\\application.html.erb"
+			],
+			[
+				"sommo",
+				"app\\models\\some_model.rb"
+			],
+			[
+				"some",
+				"app\\models\\some_model.rb"
+			],
+			[
+				"applicathelrp",
+				"app\\helpers\\application_helper.rb"
+			],
+			[
+				"applicahe",
+				"app\\helpers\\application_helper.rb"
+			],
+			[
+				"application.html",
+				"app\\views\\layouts\\application.html.erb"
+			],
 			[
 				"hosts",
 				"etc\\hosts"

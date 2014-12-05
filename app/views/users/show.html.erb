@@ -1,2 +1,2 @@
 <% provide(:title, "#{@user.name}'s Profile".html_safe) %>
-<%= @user.name %>, <%= @user.email %>
+<h1><%= gravatar_for @user %><%= @user.name %></h1>
