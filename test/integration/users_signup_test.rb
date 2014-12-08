@@ -11,6 +11,10 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                password_confirmation: "bar" }
     end
     assert_template 'users/new'
+
+    assert_select 'div#error_explanation'
+    assert_select 'div.alert-danger'
+    assert_select 'div#error_explanation ul li', 4
   end
 
   test 'valid signup information' do
@@ -24,7 +28,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                             password_confirmation: 'Validpass' }
     end
 
-    
     assert_template "users/show"
   end
 end
