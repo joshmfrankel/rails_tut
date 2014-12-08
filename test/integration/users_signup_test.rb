@@ -13,13 +13,18 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     assert_template 'users/new'
   end
 
-  # test 'valid signup information' do
-  #   user_id = User.last.id
-  #   get signup_path
-  #   post users_path, user: { name: 'Valid',
-  #                             email: 'valid@valid.com',
-  #                             password: 'Validpass',
-  #                             password_confirmation: 'Validpass' }
-  #   assert_template "users/#{user_id}"
-  # end
+  test 'valid signup information' do
+    get signup_path
+
+    # Assert difference of first param before/after block
+    assert_difference 'User.count', 1 do
+      post_via_redirect users_path, user: { name: 'Valid',
+                                            email: 'valid@valid.com',
+                                            password: 'Validpass',
+                                            password_confirmation: 'Validpass' }
+    end
+
+    
+    assert_template "users/show"
+  end
 end
