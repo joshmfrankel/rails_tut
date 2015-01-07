@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails',                '4.2.0.rc1'
 gem 'bootstrap-sass',       '3.2.0.0'
@@ -14,7 +14,7 @@ gem 'bcrypt'
 group :development, :test do
   gem 'sqlite3',     '1.3.10' # Use 1.3.10 and above to prevent errors with ruby 2.0
   gem 'byebug',      '3.4.0'
-  #gem 'web-console', '2.0.0.beta3' # Doesn't work for Windoze
+  gem 'web-console', '2.0.0.beta3' # Doesn't work for Windoze
   gem 'spring',      '1.1.3'
 end
 
@@ -22,7 +22,8 @@ group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
-  gem 'ruby_gntp'
+  #gem 'ruby_gntp' # Windows notify
+  gem 'libnotify' # Linux notify
   gem 'rubocop'
 end
 
@@ -31,6 +32,3 @@ group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'unicorn',        '4.8.3'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
