@@ -13,11 +13,11 @@ class UsersControllerTest < ActionController::TestCase
     assert_select 'title', full_title('Sign up')
   end
 
-  test 'should get SHOW' do
-    @user.save
-    get :show, :id => @user.id
-    assert_response :success
-    assert_select 'title', full_title("#{@user.name}'s Profile")
-  end
+  # test 'should get SHOW' do
+  #   @user.save
+  #   get :show, :id => @user.id
+  #   assert_response :success
+  #   assert_select 'title', full_title("#{@user.name}'s Profile")
+  # end
 
 end
